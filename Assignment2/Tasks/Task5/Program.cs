@@ -13,7 +13,19 @@ namespace Task5
 
         public static int CountVowels(string aText)
         {
-            throw new NotImplementedException();
+            int count = 0;
+
+            char[] word = aText.ToLower().ToCharArray();
+
+            foreach(char letter in word)
+            {
+                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+                {
+                    count++;
+                }
+            }
+
+            return count;
         }
     }
 }

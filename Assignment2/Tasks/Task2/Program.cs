@@ -12,7 +12,15 @@ namespace Task2
 
         public static int StringValue(string aText)
         {
-            throw new NotImplementedException();
+            char[] newText = aText.ToCharArray();
+
+            var asciiValue = 0;
+            foreach(char letter in newText)
+            {
+                asciiValue += (int)letter;
+            }
+
+            return asciiValue;
         }
     }
 }
