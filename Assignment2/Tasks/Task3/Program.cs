@@ -16,62 +16,35 @@ namespace Task3
             int[] bArray = new int[b.Length];
             string stringResult = "";
 
-
-            # region string to int array
-            for (var i = aArray.Length - 1; i >= 0; i--)
+            for (var i = 0; i <= aArray.Length - 1; i++)
             {
-                aArray[i] = int.Parse(Convert.ToString(a[(aArray.Length - 1) - i]));
+                aArray[i] = int.Parse(Convert.ToString(a[i]));
             }
 
-            for (var i = bArray.Length - 1; i >= 0; i--)
+            for (var i = 0; i <= bArray.Length - 1; i++)
             {
-                bArray[i] = int.Parse(Convert.ToString(b[(bArray.Length - 1) - i]));
+                bArray[i] = int.Parse(Convert.ToString(b[i]));
             }
-            #endregion
-
 
             for (var i = 0; i < bArray.Length; i++)
             {
-                if (aArray[i] < bArray[i])
+                if (aArray[aArray.Length - 1 - i] < bArray[bArray.Length - 1 - i])
                 {
-                    aArray[i + 1] = aArray[i + 1] - 1;
-                    aArray[i] += 10;
+                    aArray[aArray.Length - 1 - i - 1] = aArray[aArray.Length - 1 - i - 1] - 1;
+                    aArray[aArray.Length - 1 - i] += 10;
                 }
-                stringResult += (aArray[i] - bArray[i]);
+                stringResult = (aArray[aArray.Length - 1 - i] - bArray[bArray.Length - 1 - i]) + stringResult;
             }
 
             if (aArray.Length > bArray.Length)
             {
                 for (var i = bArray.Length; i < aArray.Length; i++)
                 {
-                    stringResult += aArray[i];
+                    stringResult = aArray[aArray.Length - 1 - i] + stringResult;
                 }
             }
 
-
-            #region String Reverse
-            string newString = "";
-
-            if (stringResult.Length == 1)
-            {
-                return stringResult;
-            }
-            else
-            {
-                for (var i = stringResult.Length - 1; i >= 0; i--)
-                {
-                    newString += stringResult[i];
-                }
-
-                if (newString.StartsWith('0'))
-                {
-                    newString = newString.Substring(1);
-                }
-            }
-            #endregion
-
-
-            return newString;
+            return stringResult;
         }
     }
 }
