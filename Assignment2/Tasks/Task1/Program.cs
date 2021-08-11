@@ -13,7 +13,6 @@ namespace Task1
         public static bool IsPrime(int number)
         {
             var count = 0;
-
             for (var i = 1; i <= number; i++)
             {
                 if (number % i == 0)
