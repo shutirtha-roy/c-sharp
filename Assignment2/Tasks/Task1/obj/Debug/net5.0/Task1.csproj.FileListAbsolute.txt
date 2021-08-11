@@ -13,3 +13,4 @@ F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task
 F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\ref\Task1.dll
 F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.pdb
 F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.genruntimeconfig.cache
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.csproj.AssemblyReference.cache
