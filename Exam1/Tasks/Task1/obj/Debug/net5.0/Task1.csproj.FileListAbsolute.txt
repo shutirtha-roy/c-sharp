@@ -1,0 +1,16 @@
+F:\Development\C#\Exam\Exam1\Tasks\Task1\bin\Debug\net5.0\Task1.exe
+F:\Development\C#\Exam\Exam1\Tasks\Task1\bin\Debug\net5.0\Task1.deps.json
+F:\Development\C#\Exam\Exam1\Tasks\Task1\bin\Debug\net5.0\Task1.runtimeconfig.json
+F:\Development\C#\Exam\Exam1\Tasks\Task1\bin\Debug\net5.0\Task1.runtimeconfig.dev.json
+F:\Development\C#\Exam\Exam1\Tasks\Task1\bin\Debug\net5.0\Task1.dll
+F:\Development\C#\Exam\Exam1\Tasks\Task1\bin\Debug\net5.0\ref\Task1.dll
+F:\Development\C#\Exam\Exam1\Tasks\Task1\bin\Debug\net5.0\Task1.pdb
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.csproj.AssemblyReference.cache
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.AssemblyInfoInputs.cache
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.AssemblyInfo.cs
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.csproj.CoreCompileInputs.cache
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.dll
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\ref\Task1.dll
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.pdb
+F:\Development\C#\Exam\Exam1\Tasks\Task1\obj\Debug\net5.0\Task1.genruntimeconfig.cache
