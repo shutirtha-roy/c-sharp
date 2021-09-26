@@ -12,6 +12,7 @@ namespace LudoGame.GameComponents
         public int[] Position { get; set; }
         public int InsideBoardPawnAmount { get; set; }
         public int OutsideBoardPawnAmount { get; set; }
+        public int WinBoardPawnAmount { get; set; }
 
         public Pawn()
         {
@@ -25,7 +26,7 @@ namespace LudoGame.GameComponents
         {
             for(var i = 0; i < Position.Length; i++)
             {
-                Position[i] = (int)PawnCondition.LockedPawn;
+                Position[i] = 0;
             }
         }
     }

@@ -13,6 +13,7 @@ namespace LudoGame.Game
         public string Name { get; set; }
         public string ColorOfPawn { get; set; }
         public Pawn pawn { get; set; }
+        public int PlayerMaxDiceCount { get; set; }
 
 
 

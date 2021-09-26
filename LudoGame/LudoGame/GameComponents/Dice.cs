@@ -52,7 +52,10 @@ namespace LudoGame.GameComponents
 
         public int RollDice()
         {
-            return RandomInt.Next(1, Sides + 1);
+            if(RandomInt.Next(0, 2 + 1) == 0)
+                return Sides;
+            else
+                return RandomInt.Next(1, Sides + 1);
         }
 
         
