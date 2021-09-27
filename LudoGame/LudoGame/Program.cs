@@ -15,6 +15,7 @@ namespace LudoGame
             HomeMenu menu = new HomeMenu();
             PlayerWindow playerControl = new PlayerController();
             BoardGame ludo = new BoardGame(playerControl.Person, new Dice(playerControl.TotalPlayer));
+            Console.WriteLine("");
         }
     }
 }
