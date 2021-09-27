@@ -9,7 +9,7 @@ using LudoGame.Game;
 
 namespace LudoGame.GameComponents
 {
-    public class Dice : GameComponent
+    public class Dice : GameComponent, IDice
     {
         public int Sides { get; set; }
         protected Dice DiceModify { get; set; }
