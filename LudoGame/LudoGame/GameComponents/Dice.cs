@@ -16,8 +16,6 @@ namespace LudoGame.GameComponents
         public int DiceNumber { get; set; }
         public int DiceScore { get; set; }
         
-        
-        
 
         public Dice()
         {
@@ -133,12 +131,6 @@ namespace LudoGame.GameComponents
             people.pawn.InsideBoardPawnAmount--;
             people.pawn.OutsideBoardPawnAmount++;
             people.PlayerMaxDiceCount++;
-            Console.WriteLine(people.PlayerMaxDiceCount);
         }
-
-        
-
-
-
     }
 }
