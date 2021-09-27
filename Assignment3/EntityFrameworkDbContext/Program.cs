@@ -37,10 +37,10 @@ namespace EntityFrameworkDbContext
             course.Title = "Computer Science";
             course.Fees = 10000;
             course.DurationInHours = 48;
-            //course.CourseEnrollment.Add(new Enrollment { Student = student });
-            context.Students.Update(student);
-            context.Courses.Update(course);
-            context.SaveChanges();
+
+            Update(ref student, ref course, ref context);
+
+            Deletion(ref student, ref course, ref context);
 
         }
 
@@ -52,6 +52,20 @@ namespace EntityFrameworkDbContext
             context.SaveChanges();
         }
 
-       
+        public static void Deletion(ref Student student, ref Course course, ref TrainingContext context)
+        {
+            context.Remove<Student>(student);
+            context.Remove<Course>(course);
+            course.CourseEnrollment.Remove(new Enrollment { Student = student });
+            context.SaveChanges();
+        }
+
+        public static void Update(ref Student student, ref Course course, ref TrainingContext context)
+        {
+            context.Students.Update(student);
+            context.Courses.Update(course);
+            course.CourseEnrollment.Add(new Enrollment { Student = student });
+            context.SaveChanges();
+        }
     }
 }
