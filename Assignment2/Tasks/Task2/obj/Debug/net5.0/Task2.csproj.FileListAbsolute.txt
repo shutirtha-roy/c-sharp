@@ -1,0 +1,16 @@
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\bin\Debug\net5.0\Task2.exe
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\bin\Debug\net5.0\Task2.deps.json
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\bin\Debug\net5.0\Task2.runtimeconfig.json
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\bin\Debug\net5.0\Task2.runtimeconfig.dev.json
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\bin\Debug\net5.0\Task2.dll
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\bin\Debug\net5.0\ref\Task2.dll
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\bin\Debug\net5.0\Task2.pdb
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.csproj.AssemblyReference.cache
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.AssemblyInfoInputs.cache
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.AssemblyInfo.cs
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.csproj.CoreCompileInputs.cache
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.dll
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\ref\Task2.dll
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.pdb
+F:\Development\Github\DevSkill\My File\devskill-csharp-b8\Assignment2\Tasks\Task2\obj\Debug\net5.0\Task2.genruntimeconfig.cache
